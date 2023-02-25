@@ -1,3 +1,7 @@
+body {
+    background: #F2F2F2;
+}
+
 .main-hdr-low {
     font-family: 'Poppins';
     font-style: normal;
@@ -67,7 +71,70 @@
     letter-spacing: 0.0902778px;
 
     color: #4D4F62;
-
     mix-blend-mode: normal;
     opacity: 0.5;
+
+    display: inline-block;
+    width: 90%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1, .item-2, .item-3, .item-4  {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 1rem 2rem 1rem 2rem;
+
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+}
+
+.item-1-icon-div, .item-2-icon-div, .item-3-icon-div, .item-4-icon-div {
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: 3rem;
+}
+
+.item-1-hdr, .item-2-hdr, .item-3-hdr, .item-4-hdr {
+    text-align: left;
+}
+
+.item-1-padding, .item-2-padding, .item-3-padding, .item-4-padding {
+    padding: 2rem;
+}
+
+.item-1-padding {
+    border-top: #44D3D2 solid 0.3rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.item-2-padding {
+    border-top: #EA5454 solid 0.3rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.item-3-padding {
+    border-top: #FCAE4A solid 0.3rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.item-4-padding {
+    border-top: #549EF2 solid 0.3rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
